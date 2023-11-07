@@ -35,22 +35,12 @@ async function weatherChecker(city){
     
        weatherInfo.style.display="block";
        NoData.style.display="none";
-
-
     }
     
-
-    
-
 }
 
-
-
 searchBtn.addEventListener("click", ()=>{
-    weatherChecker(searchBox.value);
-    
-   
-
+    weatherChecker(searchBox.value); 
 })
 
 
